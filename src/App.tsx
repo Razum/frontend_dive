@@ -6,6 +6,7 @@ import Home from '@/pages/Home';
 // CSS
 import CSSIndex from '@/pages/CSSIndex';
 import BorderImage from '@/pages/CSS/BorderImage';
+import ObjectPosition from '@/pages/CSS/ObjectPosition';
 
 // JS
 import JSIndex from '@/pages/JSIndex';
@@ -17,7 +18,7 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/css" element={<CSSIndex />} />
         <Route path="/css/border-image" element={<BorderImage />} />
-
+        <Route path="/css/object-position" element={<ObjectPosition />} />
         <Route path="/js" element={<JSIndex />} />
       </Routes>
     </Suspense>
