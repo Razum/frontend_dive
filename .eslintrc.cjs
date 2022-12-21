@@ -38,6 +38,7 @@ module.exports = {
         "react/function-component-definition": ["error", {
             "namedComponents": ["arrow-function"],
             "unnamedComponents": ["arrow-function"],
+            "@typescript-eslint/comma-dangle": "off"
         }]
     }
 }

@@ -5,8 +5,7 @@ import './App.css';
 import Home from '@/pages/Home';
 // CSS
 import CSSIndex from '@/pages/CSSIndex';
-import BorderImage from '@/pages/CSS/BorderImage';
-import ObjectPosition from '@/pages/CSS/ObjectPosition';
+import routes from '@/routes';
 
 // JS
 import JSIndex from '@/pages/JSIndex';
@@ -17,8 +16,9 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/css" element={<CSSIndex />} />
-        <Route path="/css/border-image" element={<BorderImage />} />
-        <Route path="/css/object-position" element={<ObjectPosition />} />
+        {
+          routes.css.map(({ url, component }) => <Route key={url} path={url} element={component} />)
+        }
         <Route path="/js" element={<JSIndex />} />
       </Routes>
     </Suspense>

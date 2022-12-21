@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    gap: 30px;
+    margin-block: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inline-size: 200px;
+    block-size: 200px;
+    background-color: bisque;
+}
+
+
+.box:has(span) {
+    border: 2px dashed darkgoldenrod;
+}
+
+.box:has(:nth-child(3)) {
+    background-color: beige;
+}
+
+.h1 + .h2 {
+    color: cadetblue;
+}
+
+.h1:has(+.h2) {
+    color: coral;
+}
