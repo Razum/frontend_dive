@@ -1,0 +1,20 @@
+@import 'https://matcha.mizu.sh/matcha.css';
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.article__decription {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
