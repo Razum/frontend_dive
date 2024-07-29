@@ -1,0 +1,51 @@
+/** max-content */
+.box1 {
+    background-color: antiquewhite;
+    width: max-content;
+}
+
+.box2 {
+    background-color: aliceblue;
+    width: max-content;
+}
+
+/** min-content */
+
+.box3 {
+    background-color: antiquewhite;
+    width: min-content;
+}
+
+.box4 {
+    background-color: aliceblue;
+    width: min-content;
+}
+
+/** fit-content */
+
+.box5 {
+    background-color: antiquewhite;
+    width: fit-content;
+}
+
+.box6 {
+    background-color: aliceblue;
+    width: fit-content;
+}
+
+/** fit-content() */
+
+.box5 {
+    background-color: antiquewhite;
+    width: fit-content(30vw);
+}
+
+.box6 {
+    background-color: aliceblue;
+    width: fit-content(30vw);
+}
+
+/** clamp */
+.box9 {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
