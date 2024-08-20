@@ -1,0 +1,38 @@
+.slider {
+    --slide-width: 200px;
+    width: 100%;
+    height: var(--slide-width);
+    counter-reset: slides;
+    overflow: hidden;
+}
+
+.inner {
+    width: 100%;
+    min-width: calc(var(--slide-width) * var(--quantity));
+    position: relative;
+}
+
+.inner > div {
+    width: var(--slide-width);
+    aspect-ratio: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 100%;
+    animation: AutoRun var(--time) linear infinite;
+    animation-delay: calc(var(--time) / var(--quantity) * (var(--index) - 1) - var(--time));
+}
+
+@keyframes AutoRun {
+    to {
+        left: calc(var(--slide-width) * -1);
+    }
+}
+
+.inner > div::before {
+    counter-increment: slides;
+    content: counter(slides);
+    display: inline-block;
+}

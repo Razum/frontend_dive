@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import styles from '@/app/matchacss/page.module.css';
 
-const MatchaCSSPage = () => {
+function MatchaCSSPage() {
     return (
         <>
-            <header></header>
+            <header />
             <section>
                 <h2>What is Lorem Ipsum?</h2>
                 <blockquote>
@@ -124,12 +124,12 @@ const MatchaCSSPage = () => {
                         high={70}
                         optimum={99}
                         value="33"
-                    ></meter>
+                     />
                     <button type="submit">Submit</button>
                 </form>
             </section>
         </>
     );
-};
+}
 
 export default MatchaCSSPage;

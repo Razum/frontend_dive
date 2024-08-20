@@ -1,7 +1,7 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 import styles from '@/app/grid-area/page.module.css';
 
-const GridAreaPage = () => {
+function GridAreaPage() {
     return (
         <div className={styles.wrapper}>
             <div className={clsx(styles.grid, styles.grid1)}>
@@ -46,6 +46,6 @@ const GridAreaPage = () => {
             </div>
         </div>
     );
-};
+}
 
 export default GridAreaPage;
