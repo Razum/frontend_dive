@@ -1,0 +1,43 @@
+.wrapper {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.75rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.3);
+}
+
+.button > .text {
+    display: block;
+ }
+
+@media (hover) {
+    .button:hover {
+        background-color: #45a049;
+        transform: scale(1.1);
+        box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.5);
+    }
+
+    .button > .text {
+        display: none;
+    }
+}

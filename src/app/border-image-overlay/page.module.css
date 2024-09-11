@@ -1,0 +1,6 @@
+.wrapper {
+    padding: 3rem 1rem;
+    background-color: khaki;
+    font-family: Helvetica, sans-serif;
+    border-image: fill 0 linear-gradient(to top, rgb(0 0 0 / 40%), transparent);
+}

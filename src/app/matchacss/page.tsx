@@ -27,6 +27,8 @@ function MatchaCSSPage() {
                         loading="lazy"
                         src="https://placehold.co/600x400"
                         alt="image_1"
+                        width={600}
+                        height={400}
                     />
 
                     <p className={styles.article__decription}>
@@ -52,6 +54,8 @@ function MatchaCSSPage() {
                     <Image
                         loading="lazy"
                         src="https://placehold.co/600x400"
+                        width={600}
+                        height={400}
                         alt="image_1"
                     />
 
@@ -124,7 +128,7 @@ function MatchaCSSPage() {
                         high={70}
                         optimum={99}
                         value="33"
-                     />
+                    />
                     <button type="submit">Submit</button>
                 </form>
             </section>

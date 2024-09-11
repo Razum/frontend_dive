@@ -22,7 +22,9 @@
     position: absolute;
     left: 100%;
     animation: AutoRun var(--time) linear infinite;
-    animation-delay: calc(var(--time) / var(--quantity) * (var(--index) - 1) - var(--time));
+    animation-delay: calc(
+        var(--time) / var(--quantity) * (var(--index) - 1) - var(--time)
+    );
 }
 
 @keyframes AutoRun {
