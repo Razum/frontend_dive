@@ -1,0 +1,10 @@
+.wrapper {
+    columns: 300px;
+    column-gap: 1rem;
+}
+
+.wrapper > div {
+    break-inside: avoid; /* Prevents breaking inside columns */
+    width: 100%!important;
+    margin-bottom: 1rem;
+}

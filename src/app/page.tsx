@@ -23,6 +23,9 @@ function Home() {
                 <li>
                     <Link href="/border-image-overlay">Border Image Overlay</Link>
                 </li>
+                <li>
+                    <Link href="/masonry">Masonry</Link>
+                </li>
             </ul>
         </main>
     );
