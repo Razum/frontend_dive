@@ -5,6 +5,6 @@
 
 .wrapper > div {
     break-inside: avoid; /* Prevents breaking inside columns */
-    width: 100%!important;
+    width: 100% !important;
     margin-bottom: 1rem;
 }

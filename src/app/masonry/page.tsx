@@ -10,13 +10,13 @@ const divs = [
     { color: 'pink', width: 250, height: 400, number: 7 },
     { color: 'brown', width: 300, height: 380, number: 8 },
     { color: 'cyan', width: 200, height: 300, number: 9 },
-    { color: 'magenta', width: 400, height: 600, number: 10 },
+    { color: 'magenta', width: 400, height: 600, number: 10 }
 ];
 
 const MasonryPage = () => {
     return (
         <>
-        <h1>Masonry</h1>
+            <h1>Masonry</h1>
             <div className={styles.wrapper}>
                 <div className="styles fff"></div>
                 {divs.map((div, index) => (
@@ -31,7 +31,7 @@ const MasonryPage = () => {
                             justifyContent: 'center',
                             margin: '10px',
                             color: 'white',
-                            fontSize: '20px',
+                            fontSize: '20px'
                         }}
                     >
                         {div.number}
@@ -40,6 +40,6 @@ const MasonryPage = () => {
             </div>
         </>
     );
-}
+};
 
 export default MasonryPage;

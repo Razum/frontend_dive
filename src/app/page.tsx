@@ -21,10 +21,18 @@ function Home() {
                     <Link href="/media-hover">Media hover</Link>
                 </li>
                 <li>
-                    <Link href="/border-image-overlay">Border Image Overlay</Link>
+                    <Link href="/border-image-overlay">
+                        Border Image Overlay
+                    </Link>
                 </li>
                 <li>
                     <Link href="/masonry">Masonry</Link>
+                </li>
+                <li>
+                    <Link href="/subgrid">Subgrid</Link>
+                </li>
+                <li>
+                    <Link href="/abort-controller">Abort Controller</Link>
                 </li>
             </ul>
         </main>
