@@ -1,0 +1,16 @@
+.wrapper {
+    padding: 1rem 3rem;
+}
+
+.parent > div:nth-child(2n) {
+    background-color: #f0f0f0;
+}
+
+.parent > div:nth-child(-n + 5) {
+    background-color: #71d5f3;
+}
+
+
+.parent > div:nth-child(2n of .child) {
+    background-color: #acf8b1;
+}

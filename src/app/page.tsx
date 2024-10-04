@@ -34,6 +34,15 @@ function Home() {
                 <li>
                     <Link href="/abort-controller">Abort Controller</Link>
                 </li>
+                <li>
+                    <Link href="/anchor-positioning">Anchor Positioning</Link>
+                </li>
+                <li>
+                    <Link href="/text-wrap">Text wrap</Link>
+                </li>
+                <li>
+                    <Link href="/nth-child">Nth-child</Link>
+                </li>
             </ul>
         </main>
     );
