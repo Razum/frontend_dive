@@ -43,6 +43,15 @@ function Home() {
                 <li>
                     <Link href="/nth-child">Nth-child</Link>
                 </li>
+                <li>
+                    <Link href="/scope">Scope</Link>
+                </li>
+                <li>
+                    <Link href="/display-contents">Display Contents</Link>
+                </li>
+                <li>
+                    <Link href="/css-masking">CSS Masking</Link>
+                </li>
             </ul>
         </main>
     );

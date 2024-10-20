@@ -10,7 +10,6 @@
     background-color: #71d5f3;
 }
 
-
 .parent > div:nth-child(2n of .child) {
     background-color: #acf8b1;
 }

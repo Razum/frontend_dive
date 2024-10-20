@@ -1,0 +1,24 @@
+.wrapper {
+    padding: 1rem 3rem;
+}
+
+@scope (.light) {
+    & {
+        padding: 3rem 0;
+        background: #fff;
+    }
+
+    & a {
+        color: #71d5f3;
+    }
+}
+
+.dark {
+    padding: 3rem;
+    background: #333;
+    color: white;
+}
+
+.dark a {
+    color: gold;
+}

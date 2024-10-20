@@ -1,0 +1,17 @@
+.wrapper {
+    padding: 3rem 1rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.block {
+    display: contents;
+}
+
+.input {
+    height: 2rem;
+}
