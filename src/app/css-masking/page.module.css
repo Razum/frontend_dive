@@ -4,14 +4,16 @@
 
 .img1 {
     aspect-ratio: 3/2;
-    background-image: url("./img1.png");
+    background-image: url('./img1.png');
     background-size: cover;
     max-width: 600px;
-    mask-image: url("./img1_mask.png");
+    mask-image: url('./img1_mask.png');
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
-    animation: scaleMask 3s infinite, tremmor 0.5s infinite;
+    animation:
+        scaleMask 3s infinite,
+        tremmor 0.5s infinite;
 }
 
 @keyframes scaleMask {
@@ -44,19 +46,61 @@
     }
 }
 
-
 .img2 {
     aspect-ratio: 3/2;
-    background-image: url("./img2.png");
+    background-image: url('./img2.png');
     background-size: cover;
     max-width: 600px;
     mask-size: 110px 110px;
-    mask-position: 0px 0px,55px 55px;
-    mask-image: radial-gradient(50% 50% at 50% 50%, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, transparent 95%, transparent 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, transparent 122%, transparent 130%, #E0EAD7 131%, #E0EAD7 140%),radial-gradient(50% 50% at 50% 50%, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, transparent 95%, transparent 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, transparent 122%, transparent 130%, #E0EAD7 131%, #E0EAD7 140%);
+    mask-position:
+        0px 0px,
+        55px 55px;
+    mask-image: radial-gradient(
+            50% 50% at 50% 50%,
+            transparent 0%,
+            transparent 75%,
+            #b6cc66 76%,
+            #b6cc66 85%,
+            #edffdb 86%,
+            #edffdb 94%,
+            transparent 95%,
+            transparent 103%,
+            #d9e6a7 104%,
+            #d9e6a7 112%,
+            #798b3c 113%,
+            #798b3c 121%,
+            transparent 122%,
+            transparent 130%,
+            #e0ead7 131%,
+            #e0ead7 140%
+        ),
+        radial-gradient(
+            50% 50% at 50% 50%,
+            transparent 0%,
+            transparent 75%,
+            #b6cc66 76%,
+            #b6cc66 85%,
+            #edffdb 86%,
+            #edffdb 94%,
+            transparent 95%,
+            transparent 103%,
+            #d9e6a7 104%,
+            #d9e6a7 112%,
+            #798b3c 113%,
+            #798b3c 121%,
+            transparent 122%,
+            transparent 130%,
+            #e0ead7 131%,
+            #e0ead7 140%
+        );
 }
 
 .block {
     max-width: 400px;
     background-color: #acf8b1;
-    mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    mask-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
 }

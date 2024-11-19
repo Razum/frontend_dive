@@ -1,0 +1,48 @@
+.wrapper {
+    padding: 1rem 3rem;
+}
+
+.item {
+    display: grid;
+    grid-auto-columns: max-content 1fr 1fr;
+    grid-template-areas:
+        'photo title title'
+        'photo labels labels'
+        'photo description description';
+    margin-bottom: 1rem;
+}
+
+.item:not(:has(.label:nth-child(2))) {
+    grid-template-areas:
+        'photo title labels'
+        'photo description description'
+        'photo description description';
+}
+
+.photo {
+    grid-area: photo;
+    background-color: #71d5f3;
+}
+
+.title {
+    grid-area: title;
+    background-color: #f3a071;
+}
+
+.description {
+    grid-area: description;
+    background-color: #f3e071;
+}
+
+.labels {
+    grid-area: labels;
+    background-color: #71f3a0;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    background-color: #45a049;
+    border-radius: 8px;
+    padding: 0.25rem 0.5rem;
+}

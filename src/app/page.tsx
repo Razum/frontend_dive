@@ -52,6 +52,15 @@ function Home() {
                 <li>
                     <Link href="/css-masking">CSS Masking</Link>
                 </li>
+                <li>
+                    <Link href="/blur-and-scale">Blur and scale</Link>
+                </li>
+                <li>
+                    <Link href="/grid-has-nth-child">Grid has nth-child</Link>
+                </li>
+                <li>
+                    <Link href="/has-animation">Has Animation</Link>
+                </li>
             </ul>
         </main>
     );

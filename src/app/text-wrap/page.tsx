@@ -33,7 +33,7 @@ function TextWrapPage() {
                     like Aldus PageMaker including versions of Lorem Ipsum.
                 </div>
 
-                <div className={styles.pretty}></div>
+                <div className={styles.pretty} />
             </div>
         </div>
     );

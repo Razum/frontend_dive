@@ -13,12 +13,12 @@ const divs = [
     { color: 'magenta', width: 400, height: 600, number: 10 }
 ];
 
-const MasonryPage = () => {
+function MasonryPage() {
     return (
         <>
             <h1>Masonry</h1>
             <div className={styles.wrapper}>
-                <div className="styles fff"></div>
+                <div className="styles fff" />
                 {divs.map((div, index) => (
                     <div
                         key={index}
@@ -40,6 +40,6 @@ const MasonryPage = () => {
             </div>
         </>
     );
-};
+}
 
 export default MasonryPage;
