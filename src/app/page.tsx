@@ -61,6 +61,12 @@ function Home() {
                 <li>
                     <Link href="/has-animation">Has Animation</Link>
                 </li>
+                <li>
+                    <Link href="/split-effect">Split effect</Link>
+                </li>
+                <li>
+                    <Link href="/has_not_animation">:has :not animation</Link>
+                </li>
             </ul>
         </main>
     );

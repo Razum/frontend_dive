@@ -7,8 +7,6 @@ const importAll = (context: __WebpackModuleApi.RequireContext) =>
 const images = importAll(require.context('./images/', false, /\.(?:png|jpg)$/));
 
 function HasAnimationPage() {
-    console.log(images);
-
     return (
         <div className={styles.wrapper}>
             <div className={styles.list}>
