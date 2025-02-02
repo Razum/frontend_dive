@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #f1d0d0;
+}
+
+.box1 {
+    width: 40px;
+    height: 20px;
+    background-color: #d0f1d0;
+    border-radius: 50%;
+    offset-path: path('M 0 0 L 0 200 L 200 200 L 200 0 Z');
+    animation: animatedPath 2s infinite linear;
+}
+
+.box2 {
+    width: 20px;
+    height: 20px;
+    background-color: #d0f1d0;
+    offset-path: inset(-10%);
+    animation: animatedPath 2s infinite linear;
+}
+
+.box3 {
+    width: 20px;
+    height: 20px;
+    background-color: #08edaf;
+    offset-path: stroke-box;
+    animation: animatedPath 2s infinite linear;
+}
+
+.box4 {
+    width: 20px;
+    height: 60px;
+    background-color: #dc4278;
+    offset-path: border-box;
+    offset-anchor: top left;
+    animation: animatedPath 2s infinite linear;
+}
+
+@keyframes animatedPath {
+    0% {
+        offset-distance: 0;
+        offset-rotate: 0deg;
+    }
+    100% {
+        offset-distance: 100%;
+        offset-rotate: 360deg;
+    }
+}

@@ -67,6 +67,12 @@ function Home() {
                 <li>
                     <Link href="/has_not_animation">:has :not animation</Link>
                 </li>
+                <li>
+                    <Link href="/text-decoration">Text Decoration</Link>
+                </li>
+                <li>
+                    <Link href="/offset">Offset</Link>
+                </li>
             </ul>
         </main>
     );
